@@ -1,0 +1,51 @@
+html {height: 100%}
+    
+    body {
+    background: rgb(178,51,27);
+    background: linear-gradient(133deg, rgba(178,51,27,1) 10%, rgba(202,90,53,1) 28%, rgba(162,25,9,1) 100%);
+    background-size: cover;
+}
+.main {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+}
+img {
+    margin-left: 250px;
+    margin-top: 200px;
+    width: 300px;
+    }
+.div {text-align: center;}
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 7px;
+    color: #E1E5D6;
+}
+p {
+   color: #FFD1B4;
+   font-size: 17px;  
+}
+.nav {
+    margin-top: 50px;   
+    text-align: center;    
+}
+ a {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 10px;
+    color: #DEDDD8;
+    background-color: #170006;
+    border: 2px solid #170006;
+ }
+ a:hover {
+    background-color: #fff;
+    color:#170006;
+ }
